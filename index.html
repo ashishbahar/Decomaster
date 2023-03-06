@@ -20,9 +20,9 @@
       crossorigin="anonymous"
     />
   </head>
-  <body class="overflow-hid den">
+  <body class="overflow-hidden">
     <!-- preloader -->
-    <!-- <div
+    <div
       class="vh-100 pre_loader justify-content-center d-flex align-items-center"
       id="pre-loader"
     >
@@ -31,7 +31,7 @@
         src="./assets/img/svg/Spinner-3.gif"
         alt="spiiner"
       />
-    </div> -->
+    </div>
     <!-- <nav> -->
     <nav class="bg_color_green p_sticky z_index_15">
       <div class="container">
@@ -1060,11 +1060,11 @@
       navlink.addEventListener("click", function () {
         ul.classList.toggle("show");
       });
-      // setTimeout(() => {
-      //   document.querySelector(".pre_loader").classList.add("d-none");
-      //   document.body.classList.remove("overflow-hidden");
-      // }, 3000);
-      // history.scrollRestoration = "manual";
+      setTimeout(() => {
+        document.querySelector(".pre_loader").classList.add("d-none");
+        document.body.classList.remove("overflow-hidden");
+      }, 3000);
+      history.scrollRestoration = "manual";
     </script>
   </body>
 </html>

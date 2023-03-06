@@ -447,7 +447,10 @@
     top: -170px;
     ;
 }
-
+@media (max-width:425px)
+{
+    
+}
 @media (max-width:1200px) {
     .hero_bg {
         background-size: cover;
